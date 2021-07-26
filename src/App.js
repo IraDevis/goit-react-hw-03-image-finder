@@ -88,26 +88,6 @@ class App extends Component {
         {showModal && <Modal onClose={toggleModal} image={modalImage} />}
       </>
     );
-
-    // if (status === 'idle') {
-    //   return <Searchbar onSubmit={this.handleFormSubmit} />
-    // }
-
-    // if (status === 'pending') {
-    //  return <Loader />
-    // }
-
-    // if (status === 'resolve') {
-    //   return <ImageGallery images={images} onClick={this.openModalImage} />
-    // }
-
-    // if (renderLoadButton) {
-    //   return <Button onClick={this.getImages} length={images.length} />
-    // }
-
-    // if (showModal) {
-    //   <Modal onClose={this.toggleModal} image={modalImage} />
-    // }
   }
 }
 
