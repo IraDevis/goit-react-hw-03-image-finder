@@ -3,8 +3,6 @@ const API_KEY = "21850278-bca2574dc72e96cdde1e95c4f";
 const BASE_URL = "https://pixabay.com/api/";
 const PER_PAGE = 12;
 
-//https://pixabay.com/api/?q=что_искать&page=номер_страницы&key=твой_ключ&image_type=photo&orientation=horizontal&per_page=12
-
 const fetchImages = ({ searchQuery, page }) => {
   return axios
     .get(

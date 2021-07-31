@@ -5,7 +5,7 @@ import Button from "./components/Button";
 import Loader from "./components/Loader";
 import Modal from "./components/Modal";
 
-import imageAPI from "./components/Services/ImagesAPI";
+import imageAPI from "./Services/ImagesAPI";
 
 import "modern-normalize";
 import "./styles.css";
